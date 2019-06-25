@@ -17,5 +17,13 @@ body {
   z-index: 999;
   position: absolute;
   top: 0;
-  right: 0
+  right: 0;
+  width: 30%;
+  height: auto;
+}
+
+img {
+  margin: auto;
+  width: 60%;
+  height: auto;
 }
