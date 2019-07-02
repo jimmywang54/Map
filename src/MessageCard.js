@@ -12,7 +12,6 @@ export default (props) => {
             <CardText>Thanks for stopping by!</CardText>
             {
                 !props.sendingMessage && !props.sentMessage && props.haveUsersLocation ?
-
                     <Form onSubmit={props.formSubmitted}>
                         <FormGroup>
                             <Label for="message">Name</Label>
